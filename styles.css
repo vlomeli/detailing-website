@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #363535da;
+  font-family: "Anton", sans-serif;
+}
+
+/* Container for background nav and main section*/
+.background-container {
+  height: 1000px;
+  background-image: url("images/wash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* navbar css */
+.navbar {
+  background-color: rgba(0, 0, 255, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  margin-left: 20px;
+  text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 255, 0.993);
+  padding: 5px 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin-right: 20px;
+  text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a {
+  text-decoration: underline;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgba(0, 0, 255, 0.425);
+}
+
+/* main section css */
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.main-left {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  right: 530px;
+  bottom: 540px;
+  text-align: left;
+}
+
+/* about us section */
+.about-us {
+  background-color: #c3c7bf;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.a-container {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  width: 1400px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  margin: 10px;
+  border: 3px solid #333;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.a-container img {
+  width: 25px;
+  height: 25px;
+  margin: 20px 5px 10px 10px;
+}
+
+/* gallery section */
+
+.gallery {
+  background-color: light gray;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.g-container {
+  text-align: center;
+}

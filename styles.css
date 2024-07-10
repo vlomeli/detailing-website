@@ -110,7 +110,7 @@ nav ul li a:hover {
 
 .gallery {
   background-color: light gray;
-  height: 500px;
+  height: 950px;
   display: flex;
   justify-content: center;
   padding: 50px;
@@ -118,4 +118,17 @@ nav ul li a:hover {
 
 .g-container {
   text-align: center;
+  color:  #c3c7bf;
+}
+
+.g-container p{
+  margin-bottom: 10px;
+}
+
+.images img{
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  border: solid 5px black;
+  border-radius: 5px;
 }

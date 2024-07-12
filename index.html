@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Store</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js" defer></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
     </style>
@@ -94,8 +96,14 @@
     </section>
 
     <section class="contact">
+      <div class="c-title">
+        <h1> CONTACT US</h1>
+        <p> NEED A CLEANING? </p>
+      </div>
+
+      <div class="parent">
       <div class="c1-container">
-        <h1>CONTACT US</h1>
+        <h1> INFO REQUESTED </h1>
           <h3> If you are interested in scheduling an appointment 
             or would like a quote, please do not hesitate to get in
             touch with us. Our team is dedicated to providing you
@@ -112,20 +120,20 @@
             <h4> Location: 1425 olivia St, Turlock Ca</h3>
       </div>
       </div>
+
       <div class="c-container">
-        <form ref="{form}" onSubmit="{sendEmail}">
+        <form id="contact-form">
           <h1>SHOOT US AN EMAIL!</h1>
           <label>Name</label>
-          <input type="text" name="user_name" />
+          <input type="text" name="user_name" required>
           <label>Email</label>
-          <input type="email" name="user_email" />
+          <input type="email" name="user_email" required>
           <label>Message</label>
-          <textarea name="message" />
+          <textarea name="message"  required></textarea>
           <input type="submit" value="Send" />
         </form>
       </div>
+      </div>
     </section>
-
-    <script src="script.js"></script>
   </body>
 </html>

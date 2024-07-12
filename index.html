@@ -6,11 +6,10 @@
     <title>Store</title>
     <link rel="stylesheet" href="styles.css" />
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
     </style>
   </head>
   <body>
-    
     <div class="background-container">
       <header class="navbar">
         <h1 class="logo">AUTO DETAILING</h1>
@@ -23,75 +22,109 @@
           </ul>
         </nav>
       </header>
-      
+
       <section class="main">
         <div class="main-left">
           <h1 class="intro-item1">WELCOME TO AUTO DETAILING</h1>
-          <p class="intro-item2"> Here we offer budget friendly detailing for everyone!</p>
+          <p class="intro-item2">
+            Here we offer budget friendly detailing for everyone!
+          </p>
           <p>If you are interested in tinting your windows, let us know!</p>
         </div>
       </section>
+    </div>
+
+    <section class="about-us">
+      <div class="a-container">
+        <h1>ABOUT US</h1>
+        <div class="card-container">
+          <div class="card">
+            <h3>Our start</h3>
+            <p>
+              Our journey began with a simple passion for cleaning cars for some
+              extra cash. Today, we've grown into a dedicated car detailing
+              business, continually investing in the best tools and techniques
+              to offer competitive quotes and exceptional service to our
+              clients.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Our Mission</h3>
+            <p>
+              At Auto Detailing, our mission is clear: to give back to the
+              community where we started, offering top-quality car detailing at
+              affordable prices. We're committed to helping our neighbors and
+              earning a livelihood with integrity and pride.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Why shop with us?</h3>
+            <p>
+              Choosing Auto Detailing means supporting a local business
+              dedicated to its community. We offer more than just exceptional
+              car detailing; we provide affordable prices without compromising
+              on quality. With us, you're not just a customer—you're part of our
+              commitment to honesty, integrity, and superior service.
+            </p>
+          </div>
+        </div>
+        <img src="images/fblogo.png" alt="Facebook logo" />
+        <img src="images/twitterlogo.png" alt="Twitter logo" />
+        <img src="images/iglogo.png" alt="Instagram logo" />
       </div>
+    </section>
 
-      <section class="about-us">
-          <div class="a-container">
-            <h1>ABOUT US</h1>
-            <div class="card-container">
-            <div class="card card1"> 
-              <h3> Our start</h3>
-              <p>Our journey began with a simple passion for 
-                cleaning cars for some extra cash. Today, we've
-                grown into a dedicated car detailing business,
-                continually investing in the best tools and techniques
-                to offer competitive quotes and exceptional 
-                service to our clients. </p>
-            </div>
-            <div class="card card2"> 
-              <h3> Our Mission </h3>
-              <p>At Auto Detailing, our mission is clear: to give back
-                to the community where we started, offering top-quality
-                car detailing at affordable prices. We're committed
-                to helping our neighbors and earning a livelihood
-                with integrity and pride.</p>
-            </div>
-            <div class="card card3"> 
-              <h3> Why shop with us? </h3>
-              <p>Choosing Auto Detailing means supporting a local business
-                dedicated to its community. We offer more than just exceptional
-                car detailing; we provide affordable prices without compromising
-                on quality. With us, you're not just a customer—you're part
-                of our commitment to honesty, integrity, and superior service.</p>
-            </div>
-            </div>
-            <img src="images/fblogo.png" alt="Facebook logo">
-            <img src="images/twitterlogo.png" alt="Twitter logo">
-            <img src="images/iglogo.png" alt="Instagram logo">
-            
-          </div>
-      </section>
+    <section class="gallery">
+      <div class="g-container">
+        <h1>Gallery</h1>
+        <p>CHECK OUT OUR WORK</p>
+        <div class="images">
+          <img src="images/clean.jpg" alt="" />
+          <img src="images/clean2.jpg" alt="" />
+          <img src="images/clean3.jpg" alt="" />
+          <img src="images/clean4.jpg" alt="" />
+          <img src="images/clean5.jpg" alt="" />
+          <img src="images/clean6.jpg" alt="" />
+          <img src="images/clean7.jpg" alt="" />
+          <img src="images/clean8.jpg" alt="" />
+          <img src="images/clean9.jpg" alt="" />
+          <img src="images/clean10.jpg" alt="" />
+        </div>
+      </div>
+    </section>
 
-      <section class="gallery">
-          <div class="g-container">
-            <h1>Gallery</h1>
-            <p>CHECK OUT OUR WORK</p>
-            <div class="images">
-            <img src="images/clean.jpg" alt="">
-            <img src="images/clean2.jpg" alt="">
-            <img src="images/clean3.jpg" alt="">
-            <img src="images/clean4.jpg" alt="">
-            <img src="images/clean5.jpg" alt="">
-            <img src="images/clean6.jpg" alt="">
-            <img src="images/clean7.jpg" alt="">
-            <img src="images/clean8.jpg" alt="">
-            <img src="images/clean9.jpg" alt="">
-            <img src="images/clean10.jpg" alt="">
-            </div>
-          </div>
-      </section>
-
-
-    
-
+    <section class="contact">
+      <div class="c1-container">
+        <h1>CONTACT US</h1>
+          <h3> If you are interested in scheduling an appointment 
+            or would like a quote, please do not hesitate to get in
+            touch with us. Our team is dedicated to providing you
+            with the best service possible.
+            When requesting a quote, please provide detailed information about
+            your needs. Keep in mind that the cost may vary depending on the
+            size of the vehicle. Larger vehicles typically incur higher charges
+            due to the increased time and resources required.
+            We look forward to hearing from you and assisting with your needs!
+          </h3>
+      <div class="info">
+            <h4> PHONE: 2097772056</h3> 
+            <h4> EMAIL: AutoDetailing@yahoo.com</h3>
+            <h4> Location: 1425 olivia St, Turlock Ca</h3>
+      </div>
+      </div>
+      <div class="c-container">
+        <form ref="{form}" onSubmit="{sendEmail}">
+          <h1>SHOOT US AN EMAIL!</h1>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>

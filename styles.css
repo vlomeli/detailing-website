@@ -29,7 +29,6 @@ body {
 .logo {
   font-size: 24px;
   color: black;
-  margin-left: 20px;
   text-shadow: 0px 0px 5px 0px black;
   background-color: white;
   border: solid 5px black;
@@ -41,7 +40,6 @@ nav ul {
   display: flex;
   gap: 20px;
   list-style-type: none;
-  margin-right: 20px;
   text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -72,6 +70,7 @@ nav ul li a:hover {
 }
 
 /* about us section */
+
 .about-us {
   background-color: #c3c7bf;
   display: flex;
@@ -91,8 +90,7 @@ nav ul li a:hover {
 
 .card {
   background-color: white;
-  width: 350px;
-  margin: 0px 10px;
+  width: 25%;
   border: 3px solid #333;
   border-radius: 5px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
@@ -109,6 +107,7 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column;
+    flex-wrap: 1;
   }
 
   .card {
@@ -116,27 +115,13 @@ nav ul li a:hover {
     margin: 10px;
     padding: 12px;
   }
-
-  .a-container {
-    margin-top: 40px;
-  }
-
-  .about-us {
-    height: 800px;
-  }
-} 
+}
 
 /* bundles section */
 
 .bundles {
   background-color: #545353;
   padding: 20px 100px;
-}
-
-.bundles-title {
-  text-align: center;
-  margin-bottom: 10px;
-  color: #c3c7bf;
 }
 
 .wrapper {
@@ -166,13 +151,19 @@ nav ul li a:hover {
   grid-column: 2;
   grid-row: 4;
 }
-  
+
 .box {
   background-color: white;
   border: 3px solid #333;
   border-radius: 5px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .bundles {
+    padding: 20px;
+  }
 }
 
 /* gallery section */
@@ -195,15 +186,6 @@ nav ul li a:hover {
 .contact {
   background-color: #545353;
   padding: 20px;
-}
-
-.c-title {
-  text-align: center;
-  color: #c3c7bf; 
-}
-
-.c-title p {
-  margin-bottom: 10px;
 }
 
 .c1-container h1 {
@@ -277,4 +259,55 @@ input[type="submit"] {
   background: #00abf0;
   color: white;
   border: none;
+}
+
+@media (max-width: 768px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c1-container {
+    width: 360px;
+  }
+
+  .c1-container h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  form {
+    margin-top: 20px;
+    width: 300px;
+    height: 400px;
+  }
+}
+
+/* map */
+
+.map {
+  padding-bottom: 20px;
+}
+
+/* footer */
+
+.footer {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer img {
+  margin: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+/* all intros */
+
+.intro {
+  background-color: #0c1011;
+  color: white;
+  padding: 50px;
+  text-align: center;
 }

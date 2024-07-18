@@ -23,7 +23,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 15px 20px;
+  position: sticky;
+  top: 10px;
+  bottom: 10px;
 }
 
 .logo {
@@ -286,13 +289,14 @@ input[type="submit"] {
 
 .map {
   padding-bottom: 20px;
+  text-align: center;
 }
 
 /* footer */
 
 .footer {
   background-color: white;
-  padding: 50px;
+  padding: 30px;
   text-align: center;
 }
 

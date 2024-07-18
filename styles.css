@@ -62,7 +62,7 @@ nav ul li a:hover {
   padding: 20px;
   border: solid 2px black;
   border-radius: 5px;
-  position: absolute; 
+  position: absolute;
   right: 7%;
   top: 200px;
   text-align: left;
@@ -309,4 +309,18 @@ input[type="submit"] {
   color: white;
   padding: 50px;
   text-align: center;
+}
+
+
+/* rendering */
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.activate {
+  transform: translateY(0px);
+  opacity: 1;
 }

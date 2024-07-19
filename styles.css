@@ -102,6 +102,12 @@ nav ul li a:hover {
   margin-top: 10px;
 }
 
+.a-container img:hover {
+  background-color: tomato;
+  border-radius: 5px;
+  transform: translate(0, -2px);
+}
+
 @media (max-width: 768px) {
   .card-container {
     flex-direction: column;
@@ -254,7 +260,7 @@ label {
 input[type="submit"] {
   margin-top: 2rem;
   cursor: pointer;
-  background: #00abf0;
+  background:  tomato;
   color: white;
   border: none;
 }
@@ -300,6 +306,12 @@ input[type="submit"] {
   margin: 5px;
   height: 20px;
   width: 20px;
+}
+
+.footer img:hover {
+  background-color: tomato;
+  border-radius: 5px;
+  transform: translate(0, -2px);
 }
 
 /* all intros */

@@ -332,7 +332,7 @@ input[type="submit"] {
 
   .c1-container h1 {
     font-size: 15px;
-  } 
+  }
 
   .c1-container p {
     text-align: start;
@@ -346,27 +346,27 @@ input[type="submit"] {
   }
 
   input {
-  width: 90%;
-  height: 30px;
-}
+    width: 90%;
+    height: 30px;
+  }
 
-textarea {
-  max-width: 90%;
-  min-width: 90%;
-  width: 90%;
-  max-height: 60px;
-  min-height: 70px;
-  padding: 7px;
-}
+  textarea {
+    max-width: 90%;
+    min-width: 90%;
+    width: 90%;
+    max-height: 60px;
+    min-height: 70px;
+    padding: 7px;
+  }
 
-input[type="submit"] {
-  margin-top: 1rem;
-  cursor: pointer;
-  background: tomato;
-  color: white;
-  border: none;
-  width: 98%;
-}
+  input[type="submit"] {
+    margin-top: 1rem;
+    cursor: pointer;
+    background: tomato;
+    color: white;
+    border: none;
+    width: 98%;
+  }
 }
 
 /* map */
